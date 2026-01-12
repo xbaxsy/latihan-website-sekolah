@@ -1,0 +1,71 @@
+body{
+    background-color: #f0f0f0;
+    color: #585858;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    margin: 0;
+    min-width: 960px;
+}
+
+/* link */
+a{
+    text-decoration: none;
+    color: #274f75;
+}
+
+/* gambar */
+img{
+    border: none;
+}
+
+/* HEADER */
+#header{
+    background-color: #274f75;
+    color: white;
+    padding: 20px;
+}
+
+#header #section{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#header span{
+    font-size: 16px;
+}
+
+/* MENU */
+#header ul{
+    list-style: none;
+    margin: 20px 0 0 0;
+    padding: 0;
+    display: flex;
+    gap: 15px;
+}
+
+#header ul li a{
+    color: white;
+    font-weight: bold;
+}
+
+#header ul li.current a{
+    text-decoration: underline;
+}
+
+/* CONTENT */
+#content{
+    background-color: white;
+    width: 960px;
+    margin: 30px auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+/* FOOTER (kalau nanti ditambah) */
+#footer{
+    background-color: #274f75;
+    color: white;
+    text-align: center;
+    padding: 15px;
+}
